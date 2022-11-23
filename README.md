@@ -9,6 +9,8 @@ This repository contains the code for replicating results from
 * [slide](https://github.com/h30306/A-Dynamic-Embedding-Method-for-Passenger-Flow-Estimation/blob/main/Conference_Howard_20210706.pdf) | [Competitive Paper Award](https://github.com/h30306/A-Dynamic-Embedding-Method-for-Passenger-Flow-Estimation/blob/main/Competitive%20Paper%20Award.pdf)
 <br>
 
+## Flow Chart
+<img src="./flowchart.png" width="100%">
 ## Getting Started
 
 * Clone the repo and get in to project `cd ./Project`
