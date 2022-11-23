@@ -10,7 +10,8 @@ This repository contains the code for replicating results from
 <br>
 
 ## Flow Chart
-<img src="./flowchart.png" width="100%">
+<img src="./flow_chart.jpg" width="100%">
+
 ## Getting Started
 
 * Clone the repo and get in to project `cd ./Project`
