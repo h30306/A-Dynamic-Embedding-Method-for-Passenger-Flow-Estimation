@@ -29,8 +29,7 @@ This repository contains the code for replicating results from
 ## Training Insturctions
 
 * Experiment configurations are found in `./model/BERT_three_loss/run_train.sh`
-* Choose an experiment that you would like to run, e.g. `best`
-* Training: `python train.py <experiment>`
-* Results are stored in the `logs` directory and can be viewed via TensorBoard.
-* Evaluation: `python evaluate.py <experiment>`
+* Training: `sh run_train.sh`
+* Results model and logs are stored in the `output` directory under `BERT_three_loss`.
+* Evaluation: `python ./BERT_three_loss/predict_embedding.py`
 
