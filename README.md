@@ -13,7 +13,12 @@ This repository contains the code for replicating results from
 
 * Build a new virtual environment 
 * Install python3 requirements: `pip install -r requirements.txt`
-* Adjustment the format of passanger data to the [demo input format]()
+* Run `cd ./Project/model` to the model folder
+* Use your own dataset (optional)
+  * Construct the longtitude and latitude information of station in to [mrt_vd.csv](./Project/data/mrt_vd.csv)
+  * Adjustment the format of passanger flow data to the [demo input format](./Project/data/data_2019.csv)
+  * Run `python distance_matrix` to create the distance matrix
+* Build training data, run `python Data_preparing_threeloss` to generate the training data
 * Train your own models of pretrained stage
 * repace the station feature from Node2Vec to BERT output in [GMAN](https://github.com/zhengchuanpan/GMAN)
 
