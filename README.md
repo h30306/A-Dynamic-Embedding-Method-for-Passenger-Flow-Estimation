@@ -11,9 +11,10 @@ This repository contains the code for replicating results from
 
 ## Getting Started
 
+* Clone the repo and get in to project `cd ./Project`
 * Build a new virtual environment 
 * Install python3 requirements: `pip install -r requirements.txt`
-* Run `cd ./Project/model` to the model folder
+* Run `cd ./model` to the model folder
 * Use your own dataset (optional)
   * Construct the longtitude and latitude information of station in to [mrt_vd.csv](./Project/data/mrt_vd.csv)
   * Adjustment the format of passanger flow data to the [demo input format](./Project/data/data_2019.csv)
@@ -24,7 +25,7 @@ This repository contains the code for replicating results from
 
 ## Training Insturctions
 
-* Experiment configurations are found in `experiments.conf`
+* Experiment configurations are found in `./model/BERT_three_loss/run_train.sh`
 * Choose an experiment that you would like to run, e.g. `best`
 * Training: `python train.py <experiment>`
 * Results are stored in the `logs` directory and can be viewed via TensorBoard.
